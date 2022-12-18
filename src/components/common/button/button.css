@@ -1,0 +1,36 @@
+.btn {
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #3c3c3c;
+    cursor: pointer;
+    transition: 0.1s transform;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #2C3878;
+}
+
+.btn-light {
+    color: #333;
+    background-color: #fff;
+}
+
+@media (max-width: 1201px) {
+    .btn {
+        padding: 10px 26px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn {
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+}

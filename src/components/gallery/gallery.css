@@ -1,0 +1,30 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.grid-container {
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 32px;
+    margin-bottom: 100px;
+}
+
+.grid-item {
+    transition: 0.1s transform;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+}
+
+.middle {
+    grid-column: 1 / 3;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        padding: 0 40px;
+    }
+}
